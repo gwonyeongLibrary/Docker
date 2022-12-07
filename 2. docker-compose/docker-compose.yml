@@ -1,0 +1,12 @@
+version: "3.9"
+services:
+  py_server:
+    build: ./python
+    ports:
+      - "5000:5000"
+
+  node_server:
+    build:
+      context: ./nodejs
+    ports:
+      - "8000:8000"

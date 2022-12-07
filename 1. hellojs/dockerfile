@@ -1,0 +1,5 @@
+FROM node:12
+COPY hello.js /
+COPY package.json /
+RUN npm install
+CMD [ "node", "hello.js" ]
