@@ -31,7 +31,8 @@ $ docker build -t imagename:tag .
 
 위의 파일은 node 12버전으로 hello.js를 복사 한 뒤 CMD로 명령어를 실행 시키는 것.
 
-(도커 명령어 사진)
+<img width="1109" alt="도커 명령어 사진" src="https://user-images.githubusercontent.com/71562311/206129367-0db93bcb-9102-4706-afa8-15ad3d5929fa.png">
+
 
 - FROM은 Dockerfile에 가장 위에 있어야 함.
   - 운영 환경, node:12라는 베이스 이미지를 이용하는 것.
@@ -103,7 +104,8 @@ $docker run imagename:tag
 
 # 실질적으로 도커 컨테이너 사용하기
 
-(컨테이너 사용)
+<img width="1087" alt="컨테이너 사용" src="https://user-images.githubusercontent.com/71562311/206129422-943371e2-6f97-4184-ace1-da9b1f05e2f2.png">
+
 
 - 컨테이너 실행 라이프 사이클
   - Docker HOST에서 컨테이너 앱으로 실행시켜 주어야 함.
@@ -124,7 +126,7 @@ $docker inspect webserver
 
 - 동작중인 컨테이너, 이미지의 상세정보를 확인
 
-(컨테이너 실행 종료 명령어)
+<img width="1052" alt="컨테이너 실행 종료 명령어" src="https://user-images.githubusercontent.com/71562311/206129529-29337daf-a0d9-4d9a-9459-b8f36b6154a5.png">
 
 - pull -> create -> start를 묶어둔 것이 run명령어
   - run을 실행하면 이미지가 현재 있는지 검색해보고 없으면 도커 허브에서 다운받음.
@@ -181,12 +183,14 @@ $docker inspect webserver
 
 - docker docs에서 문법 확인 가능
 
-(도커 컴포즈 문법)
+<img width="1308" alt="도커 컴포즈 문법" src="https://user-images.githubusercontent.com/71562311/206129572-0f8c10d7-a4f2-4616-9962-59fd78750389.png">
+
 
 - link : A container , B container를 연결시켜야하는 경우?
   - 서로 환경변수를 알고있어야 한다던가 호스트 네임을 알고있어야 한다던가
 
-(도커 컴포즈 문법2)
+<img width="1181" alt="도커 컴포즈 문법2" src="https://user-images.githubusercontent.com/71562311/206129587-61be1123-68cf-4a1a-aa51-f9897648d2ee.png">
+
 
 - environment : 환경변수 지정
 
