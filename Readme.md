@@ -204,3 +204,8 @@ $ docker-compose ps 현재 디렉토리에 있는 도커파일 확인
 (도커 컴포즈 명령어)
 
 - docker-compose config : docker-compose의 문법 확인
+
+
+---
+
+EC2인스턴스에 코드를 넣어놓고 도커 -v를 이용해 바라보도록 만들기
